@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Deactivated</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the current domain
+            var domain = window.location.hostname;
+
+            // Set the URL for the Internet Archive link
+            var archiveLink = 'https://web.archive.org/web/*/' + domain;
+            var links = document.querySelectorAll('.archive-link');
+
+            // Update all archive links with the domain-specific URL
+            links.forEach(function(link) {
+                link.href = archiveLink;
+            });
+
+            document.title = domain + ' - Site Deactivated';
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Site Deactivated</h1>
+        <p>You can find its copy in the <a href="#" class="archive-link" target="_blank">Internet Archive</a>.</p>
+        <p>This domain has been purchased by enthusiasts to prevent its misuse for advertising, spam, or worse purposes. For instance, links on reputable resources now lead to this placeholder instead of a potential virus.</p>
+        <p>If this is your domain, you can prove ownership and reclaim it. Alternatively, you can support ethical domain parking by donating on <a href="https://www.buymeacoffee.com/dometh" target="_blank">BuyMeACoffee</a> or <a href="https://www.patreon.com/dometh" target="_blank">Patreon</a>.</p>
+        <p>Learn more about the Internet Archive and Ethical Domain Parking on <a href="https://translate.google.com/translate?hl=en&sl=uk&u=https://tseivo.com/b/dometh" target="_blank">our blog</a>.</p>
+        <hr>
+        <h1>Сайт деактивовано</h1>
+        <p>Ви можете знайти його копію в <a href="#" class="archive-link" target="_blank">Інтернет Архіві</a>.</p>
+        <p>Цей домен був куплений ентузіастами, щоб запобігти його використанню для реклами, спаму чи інших поганих цілей. Наприклад, посилання на авторитетних ресурсах тепер ведуть на цю заглушку, а не на умовний вірус.</p>
+        <p>Якщо це ваш домен, ви можете довести власність і повернути його. Або підтримати етичний паркінг, задонативши на <a href="https://www.buymeacoffee.com/dometh" target="_blank">BuyMeACoffee</a> чи <a href="https://www.patreon.com/dometh" target="_blank">Patreon</a>.</p>
+        <p>Детальніше про Інтернет Архів та Етичний Паркінг Доменів ви можете дізнатися на <a href="https://tseivo.com/b/dometh" target="_blank">нашому блозі</a>.</p>
+        <hr>
+        <h1>Sitio Desactivado</h1>
+        <p>Puedes encontrar su copia en el <a href="#" class="archive-link" target="_blank">Archivo de Internet</a>.</p>
+        <p>Este dominio ha sido comprado por entusiastas para evitar su mal uso para publicidad, spam u otros propósitos peores. Por ejemplo, los enlaces en recursos de renombre ahora llevan a este marcador de posición en lugar de un posible virus.</p>
+        <p>Si este es su dominio, puede demostrar la propiedad y recuperarlo. Alternativamente, puede apoyar el estacionamiento de dominios ético donando en <a href="https://www.buymeacoffee.com/dometh" target="_blank">BuyMeACoffee</a> o <a href="https://www.patreon.com/dometh" target="_blank">Patreon</a>.</p>
+        <p>Obtén más información sobre el Archivo de Internet y el Estacionamiento Ético de Dominios en <a href="https://translate.google.com/translate?hl=es&sl=uk&u=https://tseivo.com/b/dometh" target="_blank">nuestro blog</a>.</p>
+    </div>
+</body>
+</html>
